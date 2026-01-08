@@ -19,7 +19,7 @@ public class Flywheel {
 
         // Apply the toggle state to the motor
         if (motorOn) {
-            flywheel.setPower(0.7
+            flywheel.setPower(1.0
             ); // full power forward
         } else {
             flywheel.setPower(0);

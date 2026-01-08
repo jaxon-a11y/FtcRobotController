@@ -12,7 +12,7 @@ public class Servo1 {
     private boolean buttonPressedLast = false;
     private boolean isSpinning = false;
     private ElapsedTime timer = new ElapsedTime();
-    private double spinDuration = 0.4;
+    private double spinDuration = 0.35;
 
 
     public void init(HardwareMap hwMap) {
